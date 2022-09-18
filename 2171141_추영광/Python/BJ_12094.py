@@ -116,5 +116,5 @@ arr = [list(map(int, input().split())) for _ in ' '*n]
 MaxValue = 0
 for i in arr:
     MaxValue = max(MaxValue, max(i))
-move(arr, MaxValue)
+move(arr, M = MaxValue)
 print(MaxValue)
