@@ -2,11 +2,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+public class BJ_10828 {
     private int[] array;
     private int index;
 
-    Main(int i) {
+    BJ_10828(int i) {
         array = new int[i];
         index = 0;
     }
@@ -50,7 +50,7 @@ public class Main {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         try {
             int i = Integer.parseInt(bf.readLine());
-            Main m = new Main(i);
+            BJ_10828 m = new BJ_10828(i);
 
             for (int n = 0; n < i; n++) {
                 String order = bf.readLine();
