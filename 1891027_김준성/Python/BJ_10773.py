@@ -7,9 +7,5 @@ for _ in range(k):
     else:
         arr.pop()
 
-# for n in arr:
-#     print(n)
-#     answer += n
-
 answer = sum(arr)
 print(answer)
